@@ -1,13 +1,13 @@
-package com.login.service;
+package com.example.login_service.service;
 
-import com.login.dto.UserLoginRequest;
-import com.login.dto.UserRegistrationRequest;
-import com.login.dto.UserResponse;
-import com.login.entity.User;
-import com.login.exception.UserNotFoundException;
-import com.login.exception.UserAlreadyExistsException;
-import com.login.exception.InvalidCredentialsException;
-import com.login.repository.UserRepository;
+import com.example.login_service.dto.UserLoginRequest;
+import com.example.login_service.dto.UserRegistrationRequest;
+import com.example.login_service.dto.UserResponse;
+import com.example.login_service.entity.User;
+import com.example.login_service.exception.UserNotFoundException;
+import com.example.login_service.exception.UserAlreadyExistsException;
+import com.example.login_service.exception.InvalidCredentialsException;
+import com.example.login_service.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

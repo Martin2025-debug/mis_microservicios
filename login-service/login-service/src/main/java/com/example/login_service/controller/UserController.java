@@ -1,7 +1,7 @@
-package com.login.controller;
+package com.example.login_service.controller;
 
-import com.login.dto.*;
-import com.login.service.UserService;
+import com.example.login_service.dto.*;
+import com.example.login_service.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

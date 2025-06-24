@@ -1,6 +1,6 @@
-package com.login.exception;
+package com.example.login_service.exception;
 
-import com.login.dto.ApiResponse;
+import com.example.login_service.dto.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

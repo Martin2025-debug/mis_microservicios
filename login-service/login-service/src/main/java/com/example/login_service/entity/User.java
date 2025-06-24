@@ -1,4 +1,4 @@
-package com.login.entity;
+package com.example.login_service.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
